@@ -1,0 +1,87 @@
+:root {
+    font-family: "Courier New";
+    font-weight: bolder;
+
+    --tray-width: 960px;
+}
+
+body {
+    background-color: gray;
+    background-image: url("/assets/images/backgrounds/gun-metal.png");
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+p {
+    margin: 8px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-size: 5rem;
+    margin: 12px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 75%;
+}
+
+img {
+    margin: 8px;
+}
+
+.side-by-side {
+    display: flex;
+    width: 100%;
+}
+
+.tray {
+    width: 100%;
+    max-width: var(--tray-width);
+    min-width: var(--tray-width);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+}
+
+.window {
+    border-style: outset;
+    background-color: lightgray;
+}
+
+.title-bar {
+    background-color: pink;
+    padding: 4px;
+}
+
+.window-body {
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.footer {
+    border-style: outset;
+    background-color: pink;
+    text-align: center;
+}
+
+.badges-container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/styles/style.css">
+<div class="tray">
+    <window-template>
+        <span slot="title">Header</span>
+        <div slot="body" style="text-align:center;">
+            <h1>GABAGOO</h1>
+        </div>
+    </window-template>
+    <div class="side-by-side">
+        <div style="width: 25%; height: 100%;">
+            <window-template>
+                <span slot="title">Navbar</span>
+                <div slot="body">
+                    <a href="/index.html"><p>Welcome</p></a>
+                    <a href="/pages/projects.html"><p>Projects</p></a>
+                    <a href="/pages/game_reviews.html"><p>Game Reviews</p></a>
+                </div>
+            </window-template>
+            <window-template>
+                <span slot="title">Ads</span>
+                <div slot="body" style="text-align: center;">
+                    <iframe width="180" height="180" style="border:none; margin: 8px;" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
+                </div>
+            </window-template>
+        </div>
+        <div style="width: 75%;"><slot></slot></div>
+    </div>
+    <div class="footer">
+        <p>Created: 6-19-2025 | Updated: 8-28-2025 | Version: 3.0</p>
+    </div>
+</div>
